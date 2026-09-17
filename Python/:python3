@@ -1,0 +1,105 @@
+import csv
+
+import requests
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
+# Lire les cotes du CSV
+with open("cds_corr_cotes.csv", encoding="utf-8-sig") as file:
+    reader = csv.DictReader(file, delimiter="\t")
+
+    cotes = []
+
+    for row in reader:
+        if row["Cote"]:
+            cotes.append(row["Cote"])
+
+
+driver = webdriver.Chrome()
+
+
+for cote in cotes:
+    print("\nRecherche :", cote)
+
+    # Aller sur la page de recherche
+    driver.get("https://www.constance-de-salm.de/archiv/#/search")
+
+    # Fermer le bandeau de cookies s'il apparaît
+    try:
+        bouton = WebDriverWait(driver, 3).until(
+            EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'J’accepte')]"))
+        )
+
+        bouton.click()
+
+    except TimeoutException:
+        pass
+
+    # Trouver la barre de recherche
+    recherche = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable(
+            (By.XPATH, "//input[@placeholder='Saisissez un terme de recherche']")
+        )
+    )
+
+    # Écrire la cote et lancer la recherche
+    recherche.click()
+    recherche.send_keys(cote)
+    recherche.send_keys("\n")
+
+    # Attendre que les résultats apparaissent
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.text_to_be_present_in_element((By.TAG_NAME, "body"), cote)
+        )
+
+    except TimeoutException:
+        print("Résultat non trouvé :", cote)
+        continue
+
+    # Chercher le résultat correspondant exactement à la cote
+    resultats = driver.find_elements(
+        By.XPATH, f"//a[.//*[normalize-space(text())='{cote}']]"
+    )
+
+    if len(resultats) == 0:
+        print("Document introuvable :", cote)
+        continue
+
+    print("Document trouvé :", cote)
+
+    # Cliquer sur le document
+    driver.execute_script("arguments[0].click();", resultats[0])
+
+    # Attendre que les liens vers les images soient chargés
+    try:
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'a[href*="/vimg/"]'))
+        )
+
+    except TimeoutException:
+        print("⚠️ Images non trouvées :", cote)
+        continue
+
+    # Récupérer les liens vers les images
+    liens = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/vimg/"]')
+
+    print(len(liens), "image(s) trouvée(s)")
+
+    for i, lien in enumerate(liens, start=1):
+        url = lien.get_attribute("href")
+
+        if url:
+            nom = cote.replace("/", "_") + "_" + str(i) + ".jpg"
+
+            print("  →", nom)
+
+            image = requests.get(url)
+
+            with open(f"images/{nom}", "wb") as f:
+                f.write(image.content)
+
+driver.quit()

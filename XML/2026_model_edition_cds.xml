@@ -1,0 +1,209 @@
+<!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-9858">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Letter from Constance de Salm to an unknown addressee (Dyck,
+					October 27th 1836)</title>
+				<title xml:lang="fr">Lettre de Constance de Salm à une destinataire inconnue (Dyck,
+					le 27 Octobre 1836)</title>
+				<title xml:lang="de">Brief von Constance de Salm an eine unbekannte Adressatin
+					(Dyck, 27. Oktober 1836)</title>
+				<principal>
+					<orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
+				</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Deutsches Historisches Institut Paris</publisher>
+				<authority/>
+				<availability status="restricted" n="CC BY-NC-ND 4.0">
+					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+				</availability>
+				<date when="2024-05-25"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>La correspondance de Constance de Salm (1767-1845)</title>
+				<respStmt>
+					<resp>Scientific and technical project management</resp>
+					<persName ref="#mareike.konig">
+						<forename>Mareike</forename>
+						<surname>König</surname>
+					</persName>
+					<persName ref="#floriane.chiffoleau">
+						<forename>Floriane</forename>
+						<surname>Chiffoleau</surname>
+					</persName>
+					<persName ref="#pauline.spychala">
+						<forename>Pauline</forename>
+						<surname>Spychala</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Producing a native digital edition</resp>
+					<persName ref="#chloe.dile">
+						<forename>Chloé</forename>
+						<surname>Dilé</surname>
+					</persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution>Archiv Schloss Dyck</institution>
+						<repository>Fonds Constance de Salm</repository>
+					</msIdentifier>
+				</msDesc>
+				<biblStruct>
+					<analytic>
+						<title>CdS/02_6/261</title>
+						<idno>https://constance-de-salm.de/archiv/#/document/9858</idno>
+					</analytic>
+					<monogr>
+						<title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
+							Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
+							Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
+							Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
+							Edition</title>
+						<imprint>
+							<publisher>DHI Paris</publisher>
+							<pubPlace>Paris</pubPlace>
+							<date>2021</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="en">This document was encoded as part of the German Historical
+					Institute's digital edition of Constance de Salm's correspondence.</p>
+				<p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de l'édition
+					numérique de la correspondance de Constance de Salm par l'Institut historique
+					allemand.</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
+					Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
+					Historisches Institut.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction>
+					<p xml:lang="en">No correction</p>
+					<p xml:lang="fr">Aucune correction</p>
+					<p xml:lang="de">Keine Korrektur</p>
+				</correction>
+				<hyphenation eol="all" rend="sh">
+					<p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
+						single hyphen) have been retained.</p>
+					<p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
+						principalement avec un tiret simple) ont été conservées.</p>
+					<p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
+						einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
+				</hyphenation>
+				<normalization>
+					<p xml:lang="en">To make the correspondence easier to read, we have chosen to
+						tag the abbreviations and to resolve them.</p>
+					<p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
+						choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
+					<p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
+						dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+
+
+		<profileDesc>
+			<langUsage>
+				<language ident="fr"/>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
+					<placeName ref="https://www.geonames.org/2894637">Dyck (Schloss), Gde.
+						Jüchen</placeName>
+					<date when-iso="1836-10-27">1836-10-27</date>
+				</correspAction>
+				<!-- <correspAction type="received"> -->
+				<!-- <persName ref=""></persName> -->
+				<!-- </correspAction> -->
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+				<pb n="1" facs="iiif:10.34847/nkl.74bft54o/59b2921ebdbfb2b9abf39f161ceac71f1cf166b8"/>
+				<opener>
+					<fw type="letterhead" rend="align(left)">
+                        <date>1836</date>
+                        <lb/>(de 
+                            <choice>
+								<abbr>Mme</abbr>
+								<expan>M<ex>ada</ex>me</expan>
+							</choice> la <lb/>
+							<choice>
+								<abbr>pcsse</abbr>
+								<expan>p<ex>rin</ex>cesse</expan>
+							</choice> de Salm.)</fw>
+					<title rend="align(center)">Lettre <lb/>à </title>
+					<dateline rend="align(right)">
+                        <placeName type="place" ref="https://www.geonames.org/2894637">Dyck</placeName>, ce <date when-iso="1836-10-27">27 Octobre
+						1836</date>.</dateline>
+				</opener>
+				<p>La saison s'avance, Madame, je vais bientôt<lb/> retourner à <placeName type="place" ref="https://www.geonames.org/2988507">Paris</placeName>. Je vous ai écrit
+					peu de temps après<lb/> mon arrivée ici, et ne recevant point de vos nouvelles
+					je<lb/> commence à m'en inquiéter. Ecrivez-moi au moins quelques<lb/> mots, et
+					que je sache avant de quitter la campagne comment<lb/> vous vous portez et quand
+					nous pourrons nous revoir. Nous<lb/> avons eu tout l'été des temps affreux qui
+					ont dû vous<lb/> faire beaucoup de mal, et qui m'en ont fait aussi<lb/> pourtant
+					je vais un peu mieux, et j'espère pouvoir bien<lb/> supporter le voyage; je
+					resterai encore jusqu'à la fin de<lb/>
+					<date when="1836-11">novembre</date>; écrivez-moi donc d'ici là je vous prie
+					encore.<lb/> La <persName type="person" ref="https://viaf.org/viaf/49532186">famille
+						Maison</persName> est toujours dans notre voisinage; mais<lb/> nous nous
+					voyons bien rarement; car la jeune <rs type="person" ref="#vicomtesseMaison">dame</rs> qui<lb/> est grosse ne peut supporter la voiture, et cette année,
+					je<lb/> n'ai pu me résoudre à faire aucune visite; ils voudraient<lb/> tous
+					partir dans le commencement de <date when="1836-11">Novembre</date>, je ne sais
+						<pb n="2" facs="iiif:10.34847/nkl.74bft54o/5485eee9bfeb740d74ecf325ebe1f710127ae6d4"/>
+                    <lb/> s'ils le pourront. Le 
+                        <choice>
+							<abbr>Cte</abbr>
+							<expan>C<ex>om</ex>te</expan>
+						</choice> <persName type="person" ref="https://viaf.org/viaf/49532186">Joseph</persName> vient de temps en temps chasser<lb/> avec mon
+						<persName type="person" ref="https://viaf.org/viaf/1847152636116120051820">mari</persName> et <persName type="person" ref="#FelixBaronFrancq">Félix</persName>, et me
+					donne des nouvelles de<lb/> ces dames. Voilà tout ce que je peux vous en dire.
+					quant<lb/> au <rs type="person" ref="#Maréchal">Maréchal</rs>, il est toujours à <placeName type="place" ref="https://www.geonames.org/2988507">Paris</placeName>, ce que vous
+					savez<lb/> sans doute.</p>
+
+				<p>Je vous adresse cette lettre à <placeName type="place" ref="https://www.geonames.org/6454159">Orléans</placeName>, Madame,<lb/> supposant que vous y êtes encore; mais en
+					parlant<lb/> d'<placeName type="place" ref="https://www.geonames.org/6454159">Orléans</placeName>, je me rappelle tout à coup une chose que j'ai<lb/>
+					voulu souvent vous demander: 
+                        <choice>
+							<abbr>Mr</abbr>
+							<expan>M<ex>onsieu</ex>r</expan>
+						</choice> <persName type="person" ref="https://viaf.org/viaf/208066373">Pailliet</persName>, célebre<lb/> jurisconsulte, et maintenant
+					juge à la cour royale,<lb/> est-il au nombre des personnes de la ville que
+					vous<lb/> voyez ? je vous en ferais, et à lui, mon compliment, c'est<lb/> un
+					homme d'un véritable mérite, avec qui j'ai été<lb/> longtemps en correspondance,
+					et qui m'a rendu de<lb/> grands services.</p>
+
+				<p>Je ne finirai point cette lettre sans nous dire aussi un<lb/> mot de ma famille à
+					laquelle vous prenez tant d'intérêt ; mon<lb/> petitfils <persName type="person" ref="#FelixBaronFrancq">Félix</persName> ne m'a pas quittée, et sa santé
+					s'est extrême-<lb break="no"/>ment fortifiée, ce qui me cause une bien vive
+					satisfaction. Son<lb/> frère <persName type="person" ref="AlexandreFrancq">Alexandre</persName> qui vient d'être nommé officier (dans les <orgName type="military" ref="#DragonsCavalerie">Dragons</orgName>)<lb/> est dans ce
+					moment en congé, et avec nous, il y restera jus-<lb break="no"/>qu'au <date>1er
+						Janvier</date> : je n'ai point besoin de vous dire à<lb/> quel point ces
+					consolations me sont nécessaires.</p>
+				<closer>
+					<salute>Adieu donc ou à revoir, Madame, je vous embrasse<lb/> de tout mon cœur,
+						et vous assure de nouveau de ma bien<lb/> sincère amitié.</salute>
+					<signed rend="align(right)">(signé) <persName type="person" ref="https://viaf.org/viaf/121051">Constance de Salm</persName>.</signed>
+				</closer>
+				<postscript>
+					<p>Mille hommages du <persName type="person" ref="https://viaf.org/viaf/1847152636116120051820">prince</persName>.<lb/>
+						faudra-t-il emporter le manuscrit ?</p>
+				</postscript>
+			</div>
+		</body>
+	</text>
+</TEI>

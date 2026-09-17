@@ -1,0 +1,218 @@
+<!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-8921">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Letter from Constance de Salm to Benjamin Constant (Paris,
+					November 10th 1824)</title>
+				<title xml:lang="fr">Lettre de Constance de Salm à Benjamin Constant (Paris,
+					le 10 Novembre 1824)</title>
+				<title xml:lang="de">Brief von Constance de Salm an Benjamin Constant
+					(Paris, 10. November 1824)</title>
+				<principal>
+					<orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
+				</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Deutsches Historisches Institut Paris</publisher>
+				<authority />
+				<availability status="restricted" n="CC BY-NC-ND 4.0">
+					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/" />
+				</availability>
+				<date when="2026-07-22" />
+			</publicationStmt>
+			<seriesStmt>
+				<title>La correspondance de Constance de Salm (1767-1845)</title>
+				<respStmt>
+					<resp>Scientific and technical project management</resp>
+					<persName ref="#mareike.konig">
+						<forename>Mareike</forename>
+						<surname>König</surname>
+					</persName>
+					<persName ref="#floriane.chiffoleau">
+						<forename>Floriane</forename>
+						<surname>Chiffoleau</surname>
+					</persName>
+					<persName ref="#pauline.spychala">
+						<forename>Pauline</forename>
+						<surname>Spychala</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Producing a native digital edition</resp>
+					<persName ref="#dylan.ould-younes">
+						<forename>Dylan</forename>
+						<surname>Ould-Younes</surname>
+					</persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution>Archiv Schloss Dyck</institution>
+						<repository>Fonds Constance de Salm</repository>
+					</msIdentifier>
+				</msDesc>
+				<biblStruct>
+					<analytic>
+						<title>CdS/02_3/084</title>
+						<idno>https://constance-de-salm.de/archiv/#/document/8921</idno>
+					</analytic>
+					<monogr>
+						<title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
+							Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
+							Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
+							Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
+							Edition</title>
+						<imprint>
+							<publisher>DHI Paris</publisher>
+							<pubPlace>Paris</pubPlace>
+							<date>2021</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="en">This document was encoded as part of the German Historical
+					Institute's digital edition of Constance de Salm's correspondence.</p>
+				<p
+                    xml:lang="fr"
+                >L'encodage de ce document a été réalisé dans le cadre de l'édition
+					numérique de la correspondance de Constance de Salm par l'Institut historique
+					allemand.</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
+					Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
+					Historisches Institut.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction>
+					<p xml:lang="en">No correction</p>
+					<p xml:lang="fr">Aucune correction</p>
+					<p xml:lang="de">Keine Korrektur</p>
+				</correction>
+				<hyphenation eol="all" rend="sh">
+					<p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
+						single hyphen) have been retained.</p>
+					<p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
+						principalement avec un tiret simple) ont été conservées.</p>
+					<p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
+						einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
+				</hyphenation>
+				<normalization>
+					<p xml:lang="en">To make the correspondence easier to read, we have chosen to
+						tag the abbreviations and to resolve them.</p>
+					<p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
+						choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
+					<p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
+						dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+
+
+		<profileDesc>
+			<langUsage>
+				<language ident="fr" />
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
+					<placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+					<date when-iso="1824-11-10">1824-11-10</date>
+				</correspAction>
+				<!-- <correspAction type="received"> -->
+				<!-- <persName ref=""></persName> -->
+				<!-- </correspAction> -->
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+				<pb n="1" facs="......" />
+				<opener>
+					<fw type="letterhead" rend="align(left)">
+                        <date>1824</date>
+                        <lb />(de
+                            <choice>
+								<abbr>Mme</abbr>
+								<expan>M<ex>ada</ex>me</expan>
+							</choice> la Princesse
+							<lb />de Salm.)</fw>
+					<title rend="align(center)">Lettre <lb />à
+                            <choice>
+                                <abbr>Mr</abbr>
+                                <expan>M<ex>onsieu</ex>r</expan>
+                            </choice>
+                            <persName ref="https://viaf.org/viaf/45095766">
+                            Benjamin Constant</persName>
+                            </title>.
+					<dateline rend="align(right)">
+                        <placeName
+                            type="place"
+                            ref="https://www.geonames.org/2988507"
+                        >Paris</placeName>, ce <date when-iso="1824-11-10">10
+                        <choice>
+							<abbr>Nov</abbr>
+							<expan>Nov<ex>embre</ex></expan>
+						</choice>
+						1824</date></dateline>
+				</opener>
+				<p>
+					Seriez vous assez complaisant, Monsieur, pour vous donner la peine<lb />
+					de passer chez moi un matin. Plusieurs de mes amis m'engagent à faire<lb />
+					une notice sur
+					<persName ref="https://viaf.org/viaf/89204033">
+                    	<choice>
+                        	<abbr>Mme</abbr>
+                        	<expan>M<ex>ada</ex>me</expan>
+                    	</choice>de Staël</persName> pour un ouvrage qui va paraître. Ne<lb
+                    />
+                    l'ayant pas connue particulièrment, je me vois obligée de puiser<lb
+                    />
+                    le très petit nombre de faits dont j'ai besoin, dans des articles de bio-<lb
+                    />
+                    graphie qu'il serait peutêtre plus à propos de rectifier que de<lb
+                    />
+					repéter, et sur lesquels je dois en même temps avoir quelques<lb />
+					lumières. C'est donc le service que je vous prie de vouloir bien me<lb />
+					rendre et j'ajouterai le plutot possible. Je retourne dans huit<lb />
+					jours à la campagne et ou me presse déjà de donner cette notice.<lb />
+                    Je suis toujours chez moi jusqu'à deux heures.<lb />
+                </p>
+                <p>
+                	C'est avec grand plaisir que je m'adresse à vous dans cette petite<lb
+                    />
+                    circonstance, Monsieur, j'ai depuis longtemps une veritable esti    me pour<lb
+                    />
+                    votre talent, votre mérite et votre personne, et je suis charmée<lb
+                    />
+                <pb
+                        n="2"
+                        facs="......"
+                    />d'avoir une occasion de vous le dire.<lb />
+                </p>
+                <closer>
+					<salute>
+						Recevez avec les assurances de ma très sincère estime celles de ma <lb />
+						considération distinguée.
+					</salute>
+					<signed rend="align(right)">(signé) <persName
+                            type="person"
+                            ref="https://viaf.org/viaf/121051"
+                        >
+                        Constance
+                        <choice>
+                            <abbr>Pesse</abbr>
+                            <expan>P<ex>rinc</ex>esse</expan>
+                        </choice>
+                        de Salm</persName>.</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
