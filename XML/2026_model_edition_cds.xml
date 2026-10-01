@@ -29,10 +29,6 @@
 						<forename>Mareike</forename>
 						<surname>König</surname>
 					</persName>
-					<persName ref="#floriane.chiffoleau">
-						<forename>Floriane</forename>
-						<surname>Chiffoleau</surname>
-					</persName>
 					<persName ref="#pauline.spychala">
 						<forename>Pauline</forename>
 						<surname>Spychala</surname>
@@ -40,9 +36,9 @@
 				</respStmt>
 				<respStmt>
 					<resp>Producing a native digital edition</resp>
-					<persName ref="#chloe.dile">
-						<forename>Chloé</forename>
-						<surname>Dilé</surname>
+					<persName ref="#dylan.ould-younes">
+						<forename>Dylan</forename>
+						<surname>Ould-Younes</surname>
 					</persName>
 				</respStmt>
 			</seriesStmt>
